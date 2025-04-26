@@ -15,3 +15,6 @@ Popups for wins and draws.
 
 Technologies:
 Java Swing, Artificial Intelligence (Minimax), Event Handling, UI Design
+
+Download the latest .jar file.
+Double-click the .jar file to start the game!
