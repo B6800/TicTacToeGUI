@@ -173,7 +173,7 @@ public class TicTac {
         }
         initGame();
     }
-
+//Gets the winner of each round
     private boolean checkWin(char player) {
         for (int i = 0; i < 3; i++) {
             if (board[i][0] == player && board[i][1] == player && board[i][2] == player)
@@ -195,7 +195,7 @@ public class TicTac {
                     return false;
         return true;
     }
-
+// Displays the winner
     private void highlightWin(char player) {
         for (int i = 0; i < 3; i++) {
             if (board[i][0] == player && board[i][1] == player && board[i][2] == player) {
