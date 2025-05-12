@@ -15,7 +15,7 @@ public class TicTac {
         xWins = oWins = draws = 0;
         initStartMenu();
     }
-
+//main menu
     private void initStartMenu() {
         frame = new JFrame("Tic Tac Toe");
         JPanel menu = new JPanel();
@@ -59,7 +59,7 @@ public class TicTac {
                 board[i][j] = ' ';
             }
         }
-
+//Game Panel
         JPanel bottomPanel = new JPanel(new BorderLayout());
 
         status = new JLabel("X's Turn");
@@ -108,7 +108,7 @@ public class TicTac {
             makeComputerMove();
         }
     }
-
+//Logic for computer move
     private void makeComputerMove() {
         int[] move = findBestMove();
         handleMove(move[0], move[1]);
